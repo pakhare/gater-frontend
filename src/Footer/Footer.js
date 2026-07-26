@@ -41,9 +41,9 @@ export default function Footer({ themePreference, onThemeChange, onTrackEvent })
               target="_blank"
               rel="noreferrer"
             >
-              Use code SHAH11 or QL2QGI
+              Hurray
             </a>{" "}
-            on the Go Classes website for the maximum discount on their courses.
+            Hi
           </p>
           <p>
             Developed with love by{" "}
@@ -53,7 +53,7 @@ export default function Footer({ themePreference, onThemeChange, onTrackEvent })
               target="_blank"
               rel="noreferrer"
             >
-              khushitshah.com
+              prasad?
             </a>
             .
           </p>
