@@ -7,7 +7,7 @@ export default class Header extends Component {
       <header className="border-b border-slate-300 bg-white/90 px-4 py-4 backdrop-blur dark:border-slate-800 dark:bg-slate-950/70 md:px-8">
         <div className="mx-auto flex w-full max-w-7xl items-center justify-between">
           <h1 className="text-3xl font-bold text-slate-900 dark:text-white font-sans">
-            Prasad Abhyas Kar
+            Prasad, Study 😠
           </h1>
           <p
             className="text-3xl text-slate-700 dark:text-slate-200"
