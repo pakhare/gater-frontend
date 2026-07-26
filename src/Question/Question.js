@@ -84,11 +84,12 @@ export default class Question extends Component {
                 {question.title}
               </h2>
               <MathJax
-                dynamic="true"
-                className="overflow-auto whitespace-normal text-lg leading-8 text-slate-600 dark:text-slate-300 md:text-xl"
-              >
+  dynamic="true"
+  className="max-w-full overflow-x-auto break-words text-lg leading-8 text-slate-600 dark:text-slate-300 md:text-xl"
+>
                 <div
-                  dangerouslySetInnerHTML={{
+  className="max-w-full break-words overflow-x-auto"
+  dangerouslySetInnerHTML={{
                     __html: body
                       .replace(/\n\n/g, "<br />")
                       .replace(/\n<li>/g, "<br><li>"),
