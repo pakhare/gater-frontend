@@ -88,7 +88,7 @@ export default class Question extends Component {
   className="max-w-full overflow-x-auto break-words text-lg leading-8 text-slate-600 dark:text-slate-300 md:text-xl"
 >
                 <div
-  className="max-w-full break-words overflow-x-auto"
+  className="question-content max-w-full break-words overflow-x-auto"
   dangerouslySetInnerHTML={{
                     __html: body
                       .replace(/\n\n/g, "<br />")
