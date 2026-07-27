@@ -329,7 +329,7 @@ function App() {
                   canSaveFilteredList={filterTags.length > 0 && activeQuestions.length > 0}
                 ></FilterTags>
                 <div className="grid gap-6 lg:grid-cols-[minmax(0,1.35fr)_minmax(280px,0.65fr)]">
-                  <div className="order-1 lg:order-1">
+                  <div className="order-1 lg:order-1 min-w-0 overflow-x-auto">
                     <Question
                       question={currentQuestion}
                       listName={activeList.name}
